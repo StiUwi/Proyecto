@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro del Pasiente</title>
+    <link rel="shortcut icon" href="../IMG/log.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+</head>
+<body class="bg-custom">
+    <header>
+        <img src="../IMG/Banner4.webp" alt="Banner" width="100%" height="20%">
+    </header>
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <button class="navbar-toggler border bg-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon bg-white"></span>
+            </button>
+            <div class="collapse navbar-collapse text-white" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="../index.html">Inicio <span class="sr-only">
+                    
+                  </span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Registro
+                  </a>
+                  <div class="dropdown-menu text-white" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item text-primary" href="principal.html">Principal</a>
+                    <a class="dropdown-item text-primary" href="registroHistorial.html">Historial</a>
+                    <a class="dropdown-item text-primary" href="registroPasiente.html">Pasiente</a>
+                    <a class="dropdown-item text-primary" href="registroProfecional.html">Profecional</a>
+                    <a class="dropdown-item text-primary" href="registroUsuario.html">Usuario</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#">Informacion<span class="sr-only"></span></a>        
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#">Especialidades<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#">Consultas <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#">Tratamientos <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="../index.html">Salir <span class="sr-only"></span></a>
+                </li>
+              </ul>
+                </div>
+            </nav>
+        <h3 class="text-center">
+            Registro del Paciente
+        </h3>
+        <form action="post" class="border">
+            <div class="row">
+                <div class="col">
+                    <h5 class="text-center mt-3 mb-3">
+                        Datos Personales del Paciente
+                    </h5>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">DNI</label>
+                    </div>
+                    <div class="col-7 ">
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Foto</label>
+                    </div>
+                    <div class="col-7 ">
+                        <input type="file" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Nombres</label>
+                    </div>
+                    <div class="col-7 ">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Apellidos</label>
+                    </div>
+                    <div class="col-7 ">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Fecha de Nacimiento</label>
+                    </div>
+                    <div class="col-7 ">
+                        <input type="date" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Sexo</label>
+                    </div>
+                    <div class="col-7 ">
+                        <select name="" id="" class="form-select"> 
+                            <option value="">--</option>
+                            <option value="">Masculino</option>
+                            <option value="">Femenino</option>
+                        </select>
+                    </div>
+                </div>   
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Nombre del Representante</label>
+                    </div>
+                    <div class="col-7 ">
+                        <input type="text" class="form-control">                        </div>
+                </div>
+
+                <div class="row mb-3">
+                   <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Telefonos</label>
+                    </div>
+                    <div class="col-7 ">                            
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Sala</label>
+                    </div>
+                    <div class="col-7 ">
+                        <select name="" id="" class="form-select"> 
+                            <option value="">--</option>
+                            <option value="">Sala 1</option>
+                            <option value="">Sala 2</option>
+                            <option value="">Sala 3</option>
+                            <option value="">Sala 4</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Direcciom</label>
+                        </div>
+                    <div class="col-7 ">
+                        <input type="text" class="form-control">
+                        </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Pais</label>
+                    </div>
+                    <div class="col-7 ">
+                        <select name="" id="" class="form-select"> 
+                            <option value="">--</option>
+                            <option value="">Colombia</option>
+                            <option value="">Ecuador</option>
+                            <option value="">Venezuela</option>
+                            <option value="">Brazil</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Departamento</label>
+                        </div>
+                    <div class="col-7 ">
+                        <input type="text" class="form-control">
+                        </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Provincia</label>
+                        </div>
+                    <div class="col-7 ">
+                        <input type="text" class="form-control">
+                        </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Distrito</label>
+                        </div>
+                    <div class="col-7 ">
+                        <input type="text" class="form-control">
+                        </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Estado Civil</label>
+                    </div>
+                    <div class="col-7 ">
+                        <select name="" id="" class="form-select"> 
+                            <option value="">--</option>
+                            <option value="">Soltero</option>
+                            <option value="">Casado</option>
+                            <option value="">Viudo</option>
+                            <option value="">Union Libre</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Emergencia</label>
+                        </div>
+                    <div class="col-7 ">
+                        <input type="text" class="form-control">
+                        </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Grupo Sangineo</label>
+                    </div>
+                    <div class="col-7 ">
+                        <select name="" id="" class="form-select"> 
+                            <option value="">--</option>
+                            <option value="">Grupo A</option>
+                            <option value="">Grupo B</option>
+                            <option value="">Grupo AB</option>
+                            <option value="">Grupo O</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">VIH</label>
+                    </div>
+                    <div class="col-7 ">
+                        <select name="" id="" class="form-select"> 
+                            <option value="">--</option>
+                            <option value="">Positivo</option>
+                            <option value="">Negativo</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Ocupaciom</label>
+                        </div>
+                    <div class="col-7 ">
+                        <input type="text" class="form-control">
+                        </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Peso</label>
+                        </div>
+                    <div class="col-7 ">
+                        <input type="number" class="form-control">
+                        </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Talla</label>
+                        </div>
+                    <div class="col-7 ">
+                        <input type="number" class="form-control">
+                        </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Alergico</label>
+                        </div>
+                    <div class="col-7 ">
+                        <textarea name="" id="" cols="" rows="3" class="form-control"></textarea>
+                        </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Medicamento que toma actualmente</label>
+                        </div>
+                    <div class="col-7 ">
+                        <textarea name="" id="" cols="" rows="3" class="form-control"></textarea>
+                        </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <label for="" class="form-label">Enfermedad que tiene</label>
+                        </div>
+                    <div class="col-7 ">
+                        <textarea name="" id="" cols="" rows="3" class="form-control"></textarea>
+                        </div>
+                </div>
+
+                <div class="row mb-3 text-center">
+                    <div class="col">
+                        <input type="button" value="Registrar" class="me-4 btn btn-primary">
+                        <input type="button" value="Limpiar" class="btn btn-primary">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+</body>
+</html>
